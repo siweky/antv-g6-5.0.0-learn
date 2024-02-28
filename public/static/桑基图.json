@@ -1,0 +1,107 @@
+{
+  "nodes": [
+    {
+      "name": "身份证"
+    },
+    {
+      "name": "10.50.3.110_mysql"
+    },
+    {
+      "name": "10.50.3.111_mysql"
+    },
+    {
+      "name": "CRM"
+    },
+    {
+      "name": "HRSSC"
+    },
+    {
+      "name": "AD_测试"
+    },
+    {
+      "name": "220.198.111.22"
+    },
+    {
+      "name": "192.168.1.11"
+    },
+    {
+      "name": "172.16.3.25(张三)"
+    },
+    {
+      "name": "10.5.26.33(测试服务器)"
+    },
+    {
+      "name": "10.1.22.55"
+    },
+    {
+      "name": "10.56.2.55"
+    }
+  ],
+  "links": [
+    {
+      "source": "身份证",
+      "target": "10.50.3.110_mysql",
+      "value": 10
+    },
+    {
+      "source": "身份证",
+      "target": "10.50.3.111_mysql",
+      "value": 30
+    },
+    {
+      "source": "10.50.3.110_mysql",
+      "target": "CRM",
+      "value": 8
+    },
+    {
+      "source": "10.50.3.110_mysql",
+      "target": "HRSSC",
+      "value": 2
+    },
+    {
+      "source": "10.50.3.111_mysql",
+      "target": "AD_测试",
+      "value": 15
+    },
+    {
+      "source": "10.50.3.111_mysql",
+      "target": "CRM",
+      "value": 10
+    },
+    {
+      "source": "10.50.3.111_mysql",
+      "target": "HRSSC",
+      "value": 5
+    },
+    {
+      "source": "CRM",
+      "target": "220.198.111.22",
+      "value": 4
+    },
+    {
+      "source": "CRM",
+      "target": "192.168.1.11",
+      "value": 3
+    },
+    {
+      "source": "CRM",
+      "target": "172.16.3.25(张三)",
+      "value": 1
+    },
+    {
+      "source": "HRSSC",
+      "target": "10.5.26.33(测试服务器)",
+      "value": 2
+    },
+    {
+      "source": "HRSSC",
+      "target": "10.1.22.55",
+      "value": 1
+    },
+    {
+      "source": "HRSSC",
+      "target": "10.56.2.55",
+      "value": 1
+    }
+  ]
+}

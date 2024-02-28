@@ -1,0 +1,308 @@
+{
+  "nodes": [
+    {
+      "id": "node-data-content-1",
+      "nodeType": "data-content",
+      "data": {
+        "label": "数据内容1",
+        "detail": {}
+      }
+    },
+    {
+      "id": "node-data-source-1",
+      "nodeType": "data-source",
+      "data": {
+        "label": "数据源1",
+        "detail": {
+          "name": "数据源1",
+          "ip": "10.50.3.11",
+          "type": "MySQL",
+          "groupName": "技术部",
+          "person": "张三",
+          "weakLevel": 0
+        }
+      }
+    },
+    {
+      "id": "node-data-source-2",
+      "nodeType": "data-source",
+      "data": {
+        "label": "数据源2",
+        "detail": {
+          "name": "数据源2",
+          "ip": "10.50.3.11",
+          "type": "MySQL",
+          "groupName": "技术部",
+          "person": "张三",
+          "weakLevel": 0
+        }
+      }
+    },
+    {
+      "id": "node-interface-1",
+      "nodeType": "interface",
+      "data": {
+        "label": "API接口1",
+        "detail": {
+          "url": "http://test.com/getyserinfo/1",
+          "method": "GET",
+          "groupName": "技术部",
+          "share": "不共享",
+          "open": "禁止开放",
+          "domain": "安全生产",
+          "category": "综合政务"
+        }
+      }
+    },
+    {
+      "id": "node-interface-2",
+      "nodeType": "interface",
+      "data": {
+        "label": "API接口2",
+        "detail": {
+          "url": "http://test.com/getyserinfo/2",
+          "method": "GET",
+          "groupName": "技术部",
+          "share": "不共享",
+          "open": "禁止开放",
+          "domain": "安全生产",
+          "category": "综合政务"
+        }
+      }
+    },
+    {
+      "id": "node-interface-3",
+      "nodeType": "interface",
+      "data": {
+        "label": "API接口3",
+        "detail": {
+          "url": "http://test.com/getyserinfo/3",
+          "method": "GET",
+          "groupName": "技术部",
+          "share": "不共享",
+          "open": "禁止开放",
+          "domain": "安全生产",
+          "category": "综合政务"
+        }
+      }
+    },
+    {
+      "id": "node-interface-4",
+      "nodeType": "interface",
+      "data": {
+        "label": "API接口4",
+        "detail": {
+          "url": "http://test.com/getyserinfo/4",
+          "method": "GET",
+          "groupName": "技术部",
+          "share": "不共享",
+          "open": "禁止开放",
+          "domain": "安全生产",
+          "category": "综合政务"
+        }
+      }
+    },
+    {
+      "id": "node-interface-5",
+      "nodeType": "interface",
+      "data": {
+        "label": "API接口5",
+        "detail": {
+          "url": "http://test.com/getyserinfo/5",
+          "method": "GET",
+          "groupName": "技术部",
+          "share": "不共享",
+          "open": "禁止开放",
+          "domain": "安全生产",
+          "category": "综合政务"
+        }
+      }
+    },
+    {
+      "id": "node-interface-6",
+      "nodeType": "interface",
+      "data": {
+        "label": "API接口6",
+        "detail": {
+          "url": "http://test.com/getyserinfo/6",
+          "method": "GET",
+          "groupName": "技术部",
+          "share": "不共享",
+          "open": "禁止开放",
+          "domain": "安全生产",
+          "category": "综合政务"
+        }
+      }
+    },
+    {
+      "id": "node-access-source-1",
+      "nodeType": "access-source",
+      "data": {
+        "label": "访问源1",
+        "detail": [
+          {
+            "id": "src1",
+            "ip": "192.168.1.122",
+            "username": "TonyMa"
+          },
+          {
+            "id": "src2",
+            "ip": "192.168.1.123",
+            "username": "TonyMa1"
+          },
+          {
+            "id": "src3",
+            "ip": "192.168.1.124",
+            "username": "TonyMa2"
+          },
+          {
+            "id": "src4",
+            "ip": "192.168.1.125",
+            "username": "TonyMa3"
+          },
+          {
+            "id": "src5",
+            "ip": "192.168.1.126",
+            "username": "TonyMa4"
+          },
+          {
+            "id": "src6",
+            "ip": "192.168.1.127",
+            "username": "TonyMa5"
+          },
+          {
+            "id": "src7",
+            "ip": "192.168.1.128",
+            "username": "TonyMa6"
+          },
+          {
+            "id": "src8",
+            "ip": "192.168.1.129",
+            "username": "TonyMa7"
+          },
+          {
+            "id": "src9",
+            "ip": "192.168.1.130",
+            "username": "TonyMa8"
+          },
+          {
+            "id": "src10",
+            "ip": "192.168.1.131",
+            "username": "TonyMa9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "node-access-source-2",
+      "nodeType": "access-source",
+      "data": {
+        "label": "访问源2",
+        "detail": [
+          {
+            "id": "src1",
+            "ip": "192.168.1.122",
+            "username": "TonyMa"
+          },
+          {
+            "id": "src2",
+            "ip": "192.168.1.123",
+            "username": "TonyMa1"
+          },
+          {
+            "id": "src3",
+            "ip": "192.168.1.124",
+            "username": "TonyMa2"
+          },
+          {
+            "id": "src4",
+            "ip": "192.168.1.125",
+            "username": "TonyMa3"
+          },
+          {
+            "id": "src5",
+            "ip": "192.168.1.126",
+            "username": "TonyMa4"
+          },
+          {
+            "id": "src6",
+            "ip": "192.168.1.127",
+            "username": "TonyMa5"
+          },
+          {
+            "id": "src7",
+            "ip": "192.168.1.128",
+            "username": "TonyMa6"
+          },
+          {
+            "id": "src8",
+            "ip": "192.168.1.129",
+            "username": "TonyMa7"
+          },
+          {
+            "id": "src9",
+            "ip": "192.168.1.130",
+            "username": "TonyMa8"
+          },
+          {
+            "id": "src10",
+            "ip": "192.168.1.131",
+            "username": "TonyMa9"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-1",
+      "source": "node-data-content-1",
+      "target": "node-data-source-1"
+    },
+    {
+      "id": "edge-2",
+      "source": "node-data-content-1",
+      "target": "node-data-source-2"
+    },
+    {
+      "id": "edge-3",
+      "source": "node-data-source-1",
+      "target": "node-interface-1"
+    },
+    {
+      "id": "edge-4",
+      "source": "node-data-source-2",
+      "target": "node-interface-2"
+    },
+    {
+      "id": "edge-5",
+      "source": "node-interface-1",
+      "target": "node-access-source-1"
+    },
+    {
+      "id": "edge-6",
+      "source": "node-interface-1",
+      "target": "node-access-source-2"
+    },
+    {
+      "id": "edge-7",
+      "source": "node-interface-2",
+      "target": "node-interface-3"
+    },
+    {
+      "id": "edge-8",
+      "source": "node-interface-2",
+      "target": "node-interface-4"
+    },
+    {
+      "id": "edge-9",
+      "source": "node-interface-4",
+      "target": "node-access-source-5"
+    },
+    {
+      "id": "edge-10",
+      "source": "node-interface-4",
+      "target": "node-access-source-2"
+    }
+  ]
+}

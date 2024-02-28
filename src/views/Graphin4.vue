@@ -157,7 +157,7 @@ const initGraph = () => {
         };
       }
 
-      return {
+      const newNode = {
         id,
         data: {
           ...data,
@@ -193,7 +193,9 @@ const initGraph = () => {
             ]
           }
         }
-      };
+      }
+      console.log('newNode', newNode)
+      return newNode;
     },
     edge: {
       animates: {

@@ -1,0 +1,334 @@
+{
+  "nodes": [
+    {
+      "id": "node-data-content-1",
+      "nodeType": "data-content",
+      "data": {
+        "label": "数据内容1",
+        "detail": {}
+      }
+    },
+    {
+      "id": "node-data-source-1",
+      "nodeType": "data-source",
+      "data": {
+        "label": "数据源1",
+        "detail": {
+          "name": "数据源1",
+          "ip": "10.50.3.11",
+          "type": "MySQL",
+          "groupName": "技术部",
+          "person": "张三",
+          "weakLevel": 0
+        }
+      }
+    },
+    {
+      "id": "node-data-source-2",
+      "nodeType": "data-source",
+      "data": {
+        "label": "数据源2",
+        "detail": {
+          "name": "数据源2",
+          "ip": "10.50.3.11",
+          "type": "MySQL",
+          "groupName": "技术部",
+          "person": "张三",
+          "weakLevel": 0
+        }
+      }
+    },
+    {
+      "id": "node-interface-group-1",
+      "nodeType": "interface-group",
+      "data": {
+        "label": "API接口组1",
+        "detail": {
+          "tags": [
+            {
+              "id": "tag1",
+              "name": "身份证"
+            },
+            {
+              "id": "tag2",
+              "name": "个人信息"
+            }
+          ],
+          "apiGroupList": [
+            {
+              "id": "api1",
+              "url": "http://test.com/getyserinfo",
+              "method": "POST"
+            },
+            {
+              "id": "api2",
+              "url": "http://test.com/getuserinfo",
+              "method": "GET"
+            },
+            {
+              "id": "api3",
+              "url": "http://test.com/getuserinfo",
+              "method": "POST"
+            },
+            {
+              "id": "api4",
+              "url": "http://test.com/getuserinfo",
+              "method": "POST"
+            },
+            {
+              "id": "api5",
+              "url": "http://test.com/getuserinfo",
+              "method": "POST"
+            },
+            {
+              "id": "api6",
+              "url": "http://test.com/getuserinfo",
+              "method": "POST"
+            },
+            {
+              "id": "api7",
+              "url": "http://test.com/getuserinfo",
+              "method": "POST"
+            },
+            {
+              "id": "api8",
+              "url": "http://test.com/getuserinfo",
+              "method": "POST"
+            },
+            {
+              "id": "api9",
+              "url": "http://test.com/getuserinfo",
+              "method": "POST"
+            },
+            {
+              "id": "api10",
+              "url": "http://test.com/getuserinfo",
+              "method": "POST"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "node-interface-group-2",
+      "nodeType": "interface-group",
+      "data": {
+        "label": "API接口组2",
+        "detail": {
+          "tags": [
+            {
+              "id": "tag1",
+              "name": "身份证"
+            },
+            {
+              "id": "tag2",
+              "name": "个人信息"
+            }
+          ],
+          "apiGroupList": [
+            {
+              "id": "api1",
+              "url": "http://test.com/getyserinfo",
+              "method": "POST"
+            },
+            {
+              "id": "api2",
+              "url": "http://test.com/getuserinfo",
+              "method": "GET"
+            },
+            {
+              "id": "api3",
+              "url": "http://test.com/getuserinfo",
+              "method": "POST"
+            },
+            {
+              "id": "api4",
+              "url": "http://test.com/getuserinfo",
+              "method": "POST"
+            },
+            {
+              "id": "api5",
+              "url": "http://test.com/getuserinfo",
+              "method": "POST"
+            },
+            {
+              "id": "api6",
+              "url": "http://test.com/getuserinfo",
+              "method": "POST"
+            },
+            {
+              "id": "api7",
+              "url": "http://test.com/getuserinfo",
+              "method": "POST"
+            },
+            {
+              "id": "api8",
+              "url": "http://test.com/getuserinfo",
+              "method": "POST"
+            },
+            {
+              "id": "api9",
+              "url": "http://test.com/getuserinfo",
+              "method": "POST"
+            },
+            {
+              "id": "api10",
+              "url": "http://test.com/getuserinfo",
+              "method": "POST"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "node-access-source-1",
+      "nodeType": "access-source",
+      "data": {
+        "label": "访问源1",
+        "detail": [
+          {
+            "id": "src1",
+            "ip": "192.168.1.122",
+            "username": "TonyMa"
+          },
+          {
+            "id": "src2",
+            "ip": "192.168.1.123",
+            "username": "TonyMa1"
+          },
+          {
+            "id": "src3",
+            "ip": "192.168.1.124",
+            "username": "TonyMa2"
+          },
+          {
+            "id": "src4",
+            "ip": "192.168.1.125",
+            "username": "TonyMa3"
+          },
+          {
+            "id": "src5",
+            "ip": "192.168.1.126",
+            "username": "TonyMa4"
+          },
+          {
+            "id": "src6",
+            "ip": "192.168.1.127",
+            "username": "TonyMa5"
+          },
+          {
+            "id": "src7",
+            "ip": "192.168.1.128",
+            "username": "TonyMa6"
+          },
+          {
+            "id": "src8",
+            "ip": "192.168.1.129",
+            "username": "TonyMa7"
+          },
+          {
+            "id": "src9",
+            "ip": "192.168.1.130",
+            "username": "TonyMa8"
+          },
+          {
+            "id": "src10",
+            "ip": "192.168.1.131",
+            "username": "TonyMa9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "node-access-source-2",
+      "nodeType": "access-source",
+      "data": {
+        "label": "访问源2",
+        "detail": [
+          {
+            "id": "src1",
+            "ip": "192.168.1.122",
+            "username": "TonyMa"
+          },
+          {
+            "id": "src2",
+            "ip": "192.168.1.123",
+            "username": "TonyMa1"
+          },
+          {
+            "id": "src3",
+            "ip": "192.168.1.124",
+            "username": "TonyMa2"
+          },
+          {
+            "id": "src4",
+            "ip": "192.168.1.125",
+            "username": "TonyMa3"
+          },
+          {
+            "id": "src5",
+            "ip": "192.168.1.126",
+            "username": "TonyMa4"
+          },
+          {
+            "id": "src6",
+            "ip": "192.168.1.127",
+            "username": "TonyMa5"
+          },
+          {
+            "id": "src7",
+            "ip": "192.168.1.128",
+            "username": "TonyMa6"
+          },
+          {
+            "id": "src8",
+            "ip": "192.168.1.129",
+            "username": "TonyMa7"
+          },
+          {
+            "id": "src9",
+            "ip": "192.168.1.130",
+            "username": "TonyMa8"
+          },
+          {
+            "id": "src10",
+            "ip": "192.168.1.131",
+            "username": "TonyMa9"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-1",
+      "source": "node-data-content-1",
+      "target": "node-data-source-1"
+    },
+    {
+      "id": "edge-2",
+      "source": "node-data-content-1",
+      "target": "node-data-source-2"
+    },
+    {
+      "id": "edge-3",
+      "source": "node-data-source-1",
+      "target": "node-interface-group-1"
+    },
+    {
+      "id": "edge-4",
+      "source": "node-data-source-2",
+      "target": "node-interface-group-2"
+    },
+    {
+      "id": "edge-5",
+      "source": "node-interface-group-1",
+      "target": "node-access-source-1"
+    },
+    {
+      "id": "edge-6",
+      "source": "node-interface-group-1",
+      "target": "node-access-source-2"
+    }
+  ]
+}

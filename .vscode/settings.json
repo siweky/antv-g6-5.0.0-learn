@@ -1,3 +1,4 @@
 {
-  "workbench.tree.enableStickyScroll": true
+  "workbench.tree.enableStickyScroll": true,
+  "nuxt.isNuxtApp": false
 }
